@@ -8,8 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightHover: "#f7f7f7",
+        darkHover: "#1a1a1a",
+        darkTheme: "#1a1a1a",
+      },
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+        ovo: ["Ovo", "sans-serif"],
       },
     },
   },
