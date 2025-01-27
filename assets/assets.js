@@ -37,8 +37,16 @@ import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import logo2 from "./logo2.png";
+import adobe_xd from "./Adobe-xd.png";
+import adobe_i from "./Adobe-i.png";
+import adobe_pr from "./Adobe-pr.png";
+import adobe_ph from "./Adobe-ph.png";
 
 export const assets = {
+  adobe_xd,
+  adobe_i,
+  adobe_pr,
+  adobe_ph,
   user_image,
   code_icon,
   code_icon_dark,
@@ -82,53 +90,48 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
+    title: "InkScribe",
+    description: "UX/UI Design",
+    bgImage: "/work-4.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "Photography site",
-    description: "Web Design",
+    title: "ClimaCast",
+    description: "Ux/UI Design",
     bgImage: "/work-3.png",
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Pokedex Finder",
+    description: "Web Design + Api",
+    bgImage: "/work-1.png",
+  },
+  {
+    title: "Clima tempo",
+    description: "Web Design + Api",
+    bgImage: "/work-2.png",
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Design de Websites",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Criando e desenvolvendo websites modernos, responsivos e fáceis de usar, adaptados às suas necessidades.",
+    link: "https://www.behance.net/vitorhc",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Design de UI/UX",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
+      "Criando interfaces intuitivas e experiências de usuário perfeitas que elevam as interações digitais.",
+    link: "https://www.behance.net/vitorhc",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
+    title: "Design Gráfico",
+    description:
+      "Entregando designs criativos e visualmente impressionantes para comunicar ideias de forma eficaz e causar um impacto duradouro.",
+    link: "https://github.com/Hessx",
   },
 ];
 
@@ -136,27 +139,29 @@ export const infoList = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
+    title: "Linguas",
     description: "HTML, CSS, JavaScript React Js, Next Js",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
-    title: "Education",
-    description: "B.Tech in Computer Science",
+    title: "Educação",
+    description: "Tecnólogo em Analise e desenvolvimento de sistemas 2025",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
-    title: "Projects",
-    description: "Built more than 5 projects",
+    title: "Projetos",
+    description: "Criação de mais de 5 projetos de design e desenvolvimento",
   },
 ];
 
 export const toolsData = [
   assets.vscode,
-  assets.firebase,
-  assets.mongodb,
   assets.figma,
   assets.git,
+  assets.adobe_xd,
+  assets.adobe_i,
+  assets.adobe_pr,
+  assets.adobe_ph,
 ];

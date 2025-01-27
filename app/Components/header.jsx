@@ -8,19 +8,23 @@ const Header = () => {
       <div>
         <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
       </div>
-      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo">
-        Olá, eu sou Vitor Hesse <Image src={assets.hand_icon} alt="Hand icon" />
+      <h3 className="flex items-end gap-2 text-xl md:text-3xl mb-3 font-ovo">
+        Vitor Hesse
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-ovo">
         Ux/Ui Designer E Web Developer
       </h1>
-      <p className="max-w-2xl mx-auto font-ovo">Description</p>
+      <p className="max-w-3xl mx-auto font-ovo">
+        Atuo em áreas como desenvolvimento de interfaces, design UX/UI e criação
+        de soluções visuais inovadoras, com foco em proporcionar experiências
+        digitais centradas no usuário.
+      </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
-          href="#About"
+          href="#Contact"
           className="px-10 text-white py-3 border bg-black rounded-full border-white flex items-center gap-2"
         >
-          Contact
+          Contato
         </a>
         <Image src={assets.right_arrow_white} alt="Right arrow" />
         <a

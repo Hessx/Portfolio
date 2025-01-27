@@ -7,16 +7,18 @@ const Services = () => {
     <div id="Services" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-ovo">O que eu ofereço</h4>
       <h2 className="text-center text-5xl font-ovo">Meus serviços</h2>
-      <p className="text-center max-w-2xl mx-auto mt-10 mb-10 font-ovo">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-        condimentum, odio nec tincidunt ultricies, nunc justo scelerisque
-        mauris, nec vestibulum metus sapien sit amet nulla. Nulla facilisi.
-        Vivamus nec nunc non mi varius vestibulum. Nullam auctor, metus quis
-        ultricies ultricies, metus nisl lacinia risus, nec ultricies elit ligula
-        et ex. Nullam sit amet felis vel sapien ultricies pulvinar. Vestibulum
-        ante ipsum primis in faucibus or
+      <p className="text-center max-w-4xl mx-auto mt-10 mb-10 font-ovo">
+        Ofereço serviços de desenvolvimento front-end, criando interfaces
+        modernas e responsivas com tecnologias como JavaScript, React e Tailwind
+        CSS, sempre focadas na experiência do usuário. Também atuo no design
+        UX/UI, desenvolvendo soluções intuitivas e funcionais alinhadas às
+        melhores práticas para garantir usabilidade e navegação fluida. Além
+        disso, tenho experiência em análise e otimização de estratégias digitais
+        utilizando Google Analytics e Google Ads, com o objetivo de alcançar
+        resultados eficientes. Meu foco é unir tecnologia e design para criar
+        experiências digitais completas e centradas no usuário.
       </p>
-      <div className="grid  my-10 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid my-10 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {serviceData.map(({ icon, title, description, link }, index) => (
           <div
             key={index}
@@ -34,15 +36,7 @@ const Services = () => {
             <a
               href={link}
               className="flex items-center gap-5 text-sm mt-5 text-gray-700 font-ovo"
-            >
-              Read more{" "}
-              <Image
-                alt=""
-                src={assets.right_arrow}
-                className="w-4"
-                alt="Right arrow"
-              />
-            </a>
+            ></a>
           </div>
         ))}
       </div>

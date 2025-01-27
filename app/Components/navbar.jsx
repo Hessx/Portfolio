@@ -31,35 +31,27 @@ const Navbar = () => {
           </li>
           <li>
             <a className="font-ovo" href="#About">
-              About me
+              Sobre mim
             </a>
           </li>
           <li>
             <a className="font-ovo" href="#Services">
-              Services
+              Serviços
             </a>
           </li>
           <li>
             <a className="font-ovo" href="#Work">
-              My work
+              Meu trabalho
             </a>
           </li>
-          <li>
-            <a className="font-ovo" href="#Contact">
-              Contact
-            </a>
-          </li>
+          <li></li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
-            <Image src={assets.moon_icon} alt="" className="w-6" />
-          </button>
-
           <a
-            href="#contact"
+            href="#Contact"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo"
           >
-            Contact <Image src={assets.arrow_icon} alt="" className="w-3" />
+            Contato <Image src={assets.arrow_icon} alt="" className="w-3" />
           </a>
           <button className="block md:hidden ml-3" onClick={Openmenu}>
             <Image src={assets.menu_black} alt="" className="w-6" />

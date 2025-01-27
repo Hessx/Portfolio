@@ -5,8 +5,8 @@ import { assets, infoList, toolsData } from "@/assets/assets";
 const About = () => {
   return (
     <div id="About" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-ovo">Introduction</h4>
-      <h2 className="text-center text-5xl font-ovo">About me</h2>
+      <h4 className="text-center mb-2 text-lg font-ovo">Introdução</h4>
+      <h2 className="text-center text-5xl font-ovo">Sobre mim</h2>
 
       <div className="flex flex-col items-center lg:flex-row gap-20 my-20">
         <div className="w-64 sm:w-96 h-64 sm:h-96 relative rouded-3xl">
@@ -17,7 +17,15 @@ const About = () => {
           />
         </div>
         <div className="flex-1">
-          <p className="mb-10 max-w-2xl font-ovo">paragrafo</p>
+          <p className="mb-10 max-w-2xl font-ovo">
+            Sou estudante de Análise e Desenvolvimento de Sistemas na ENIAC, com
+            certificação como Profissional em Design de Experiência pela Google.
+            Tenho experiência em desenvolvimento de interfaces e design UX/UI,
+            utilizando tecnologias como JavaScript e React para criar aplicações
+            interativas e centradas no usuário. Estou sempre em busca de
+            aprimorar minhas habilidades técnicas e criativas para oferecer
+            soluções digitais modernas e eficientes.
+          </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w2xl">
             {infoList.map(({ icon, iconDark, title, description }, index) => (
@@ -27,8 +35,10 @@ const About = () => {
                 key={index}
               >
                 <Image className="w-7 mt-3" src={icon} alt={title} />
-                <h3 className="my-4 font-semibold text-gray-700w">{title}</h3>
-                <p>{description}</p>
+                <h3 className="font-ovo my-4 font-semibold text-gray-700w">
+                  {title}
+                </h3>
+                <p className="font-ovo">{description}</p>
               </li>
             ))}
           </ul>
