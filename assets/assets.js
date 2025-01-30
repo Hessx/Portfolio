@@ -93,21 +93,25 @@ export const workData = [
     title: "InkScribe",
     description: "UX/UI Design",
     bgImage: "/work-4.png",
+    url: "https://www.behance.net/gallery/176789545/InkScribe-Connecting-Words-Design",
   },
   {
     title: "ClimaCast",
     description: "Ux/UI Design",
     bgImage: "/work-3.png",
+    url: "https://www.behance.net/gallery/185543281/ClimaCast-Weather-app-UI",
   },
   {
     title: "Pokedex Finder",
     description: "Web Design + Api",
     bgImage: "/work-1.png",
+    url: "https://github.com/Hessx/DEXFINDER-Pokeapi",
   },
   {
     title: "Clima tempo",
     description: "Web Design + Api",
     bgImage: "/work-2.png",
+    url: "https://github.com/Hessx/Clima-tempo",
   },
 ];
 
@@ -117,21 +121,21 @@ export const serviceData = [
     title: "Design de Websites",
     description:
       "Criando e desenvolvendo websites modernos, responsivos e fáceis de usar, adaptados às suas necessidades.",
-    link: "https://www.behance.net/vitorhc",
+    url: "https://www.behance.net/vitorhc",
   },
   {
     icon: assets.ui_icon,
     title: "Design de UI/UX",
     description:
       "Criando interfaces intuitivas e experiências de usuário perfeitas que elevam as interações digitais.",
-    link: "https://www.behance.net/vitorhc",
+    url: "https://www.behance.net/vitorhc",
   },
   {
     icon: assets.graphics_icon,
     title: "Design Gráfico",
     description:
-      "Entregando designs criativos e visualmente impressionantes para comunicar ideias de forma eficaz e causar um impacto duradouro.",
-    link: "https://github.com/Hessx",
+      "Designs criativos e visualmente impressionantes para comunicar ideias de forma eficaz e causar impacto.",
+    url: "https://github.com/Hessx",
   },
 ];
 
@@ -146,13 +150,13 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Educação",
-    description: "Tecnólogo em Analise e desenvolvimento de sistemas 2025",
+    description: "Tecnólogo em Analise e desenvolvimento de sistemas",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projetos",
-    description: "Criação de mais de 5 projetos de design e desenvolvimento",
+    description: "Projetos de design e desenvolvimento",
   },
 ];
 

@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="mb-4">
               <label
                 htmlFor="name"
-                className="font-ovo mb-2 font-ovo text-center block text-sm font-medium text-gray-700"
+                className="mb-2 font-ovo text-center block text-sm font-medium text-gray-700"
               >
                 Nome
               </label>
